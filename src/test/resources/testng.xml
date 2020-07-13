@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Wb suite">
+    <listeners>
+        <listener class-name="by.stormnet.core.common.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" name="Wildberries tests">
+        <classes>
+            <class name="project.by.stormnet.functional.tests.WbSearchTests"/>
+            <class name="project.by.stormnet.functional.tests.WbLoginTests"/>
+            <class name="project.by.stormnet.functional.tests.WbFactory"/>
+            <class name="project.by.stormnet.functional.tests.WbNavigationTests"/>
+        </classes>
+    </test>
+</suite>
